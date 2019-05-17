@@ -4,12 +4,12 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    
+    "vuedraggable": "^2.20.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"vue serve demo1.vue"
+    "start": "vue serve demo1.vue"
   },
   "author": "",
   "license": "ISC"

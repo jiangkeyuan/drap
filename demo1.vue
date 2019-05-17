@@ -2,13 +2,14 @@
 	<div :style = 'content'> 
 		<div :style="content_left">
 				<ul ref='conts'>
-					<li :style='li' class='lis'>0</li>
+					<li :style='li'>0</li>
 					<li :style='li'>1</li>
 					<li :style='li'>2</li>
 					<li :style='li'>3</li>
+					<input type='button' value='点击' @click='change'/>
 				</ul>
 		</div>
-		<div :style="content_right">
+		<div :style="content_right" id='lkl'>
 			<div :style="content_center" ref='content_center'>
 
 			</div>
@@ -61,7 +62,10 @@ export default{
 		}
 	},
 	methods:{ 
-		
+		change(){
+			let lkl = document.getElementById('lkl');
+			console.log(lkl.innerHTML);
+		}
 	},
 	mounted(){
 		this.$nextTick(()=>{
