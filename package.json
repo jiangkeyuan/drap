@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "vue serve demo1.vue"
+    "start": "vue serve Vuedraggable.vue"
   },
   "author": "",
   "license": "ISC"
